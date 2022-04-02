@@ -6,7 +6,7 @@ import java.awt.Color;
 import javax.swing.*;
 import java.lang.Math;
 
-public class Calculate {
+public class index {
 
     private static final int WINDOW_WIDTH = 410;//WINDOW_WIDTH
     private static final int WINDOW_HEIGHT = 600;//WINDOW_HEIGHT
@@ -28,7 +28,7 @@ public class Calculate {
 
   
 
-    private Calculate() {
+    private index() {
         window = new JFrame("Calculator");
         window.setSize(WINDOW_WIDTH, WINDOW_HEIGHT); // Set the width and the Height of the window
         window.setLocationRelativeTo(null); // Move Window To Center
@@ -548,7 +548,6 @@ public class Calculate {
     }
 
     public static void main(String[] args) {
-        new Calculate();
+        new index();
     }
-}
-					
+}				
